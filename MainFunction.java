@@ -16,5 +16,13 @@ public class MainFunction {
 		myStack.push(mySecondNode);
 		myStack.push(myThirdNode);
 		myStack.printStack();
+		System.out.println("The topmost element of the stack is: "+myStack.peak());
+		System.out.println("Performing pop operations till the stack is empty...");
+		myStack.pop();
+		myStack.printStack();
+		myStack.pop();
+		myStack.printStack();
+		myStack.pop();
+		myStack.printStack();
 	}
 }
