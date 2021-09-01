@@ -15,10 +15,10 @@ public class MyNewQueue {
 			}
 			
 			/*
-			 * The method Push adds elements to the queue
+			 * The method Enqueue adds elements to the queue
 			 * @param element to be added to queue
 			 */
-			public void push(INode<Integer> element)
+			public void enqueue(INode<Integer> element)
 			{
 				myLinkedList.append(element);
 			}
