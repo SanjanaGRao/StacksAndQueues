@@ -24,6 +24,15 @@ public class MyNewQueue {
 			}
 			
 			/*
+			 * The method Dequeue is used to remove elements from the top of the queue
+			 * @returns the queue
+			 */
+			public INode<Integer> dequeue()
+			{
+				return myLinkedList.pop();
+			}
+			
+			/*
 			 * The method printQueue prints the elements of the stack
 			 */
 			public void printQueue()

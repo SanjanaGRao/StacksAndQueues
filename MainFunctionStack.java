@@ -4,10 +4,11 @@
  * @since 1-09-2021
  */
 
-public class MainFunction {
+public class MainFunctionStack {
 	
 	public static void main(String[] args)
 	{
+		System.out.println("Stack Operations");
 		MyNode<Integer> myFirstNode = new MyNode<>(56);
 		MyNode<Integer> mySecondNode = new MyNode<>(30);
 		MyNode<Integer> myThirdNode = new MyNode<>(70);		

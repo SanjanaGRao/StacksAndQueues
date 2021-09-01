@@ -16,5 +16,12 @@ public class MainFunctionQueue {
 		myQueue.enqueue(mySecondNode);
 		myQueue.enqueue(myThirdNode);
 		myQueue.printQueue();
+		System.out.println("Performing dequeue operations till the queue gets empty.");
+		myQueue.dequeue();
+		myQueue.printQueue();
+		myQueue.dequeue();
+		myQueue.printQueue();
+		myQueue.dequeue();
+		myQueue.printQueue();
 	}
 }
