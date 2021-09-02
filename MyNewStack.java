@@ -2,7 +2,7 @@
 	 *  The class MyNewStack is created in order to understand how Stacks work.
 	 *  The class also performs simple operation on Stacks like pushing and popping
 	 *  @myLinkedList is created because a stack data structure can be implemented using linked list data.
-	 *  @author Sapnjana Rao
+	 *  @author Sanjana Rao
 	 *  @since 1-h09-2021
 	 */
 public class MyNewStack {

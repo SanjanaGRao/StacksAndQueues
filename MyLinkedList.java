@@ -3,7 +3,7 @@
  *  such as creating a node, adding a new node, inserting a node, deleting a node, sorting the data in a linked list etc.
  *  K indicates datatype on element on the list (integer).
  *  @author Sanjana Rao
- *  @since 1-09-2021
+ *  @since 01-09-2021
  */
 public class MyLinkedList<K> {
 	
@@ -25,7 +25,7 @@ public class MyLinkedList<K> {
 	{
 		if(this.tail == null)
 			this.tail= newNode;
-		else if(this.head == null)
+		if(this.head == null)
 			this.head = newNode;
 		else
 			{
